@@ -1,0 +1,28 @@
+body {
+    background-color: #9bedff;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#self {
+    height: 50%;
+    width: 50%;
+}
+
+.page {
+    border: 1px dotted;
+    background-color: #2edaff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+p {
+    font-size: 0.8em
+}
