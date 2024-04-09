@@ -3,6 +3,7 @@ This is a repository for a web-based resumé.
 
 - [ ] Add previous workplaces
   - [ ] Add tasks
+  - [ ] Create list items
 - [ ] Add Programing langugeage
 - [ ] Add Programing repositories
 - [ ] Add dynamic with JavaScript
