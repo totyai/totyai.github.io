@@ -2,8 +2,9 @@
 This is a repository for a web-based resumé.
 
 - [ ] Add previous workplaces
-  - [ ] Add tasks
-  - [ ] Create list items
+  - [X] Add tasks
+  - [X] Create list items
+  - [ ] Modify picture size
 - [ ] Add Programing langugeage
 - [ ] Add Programing repositories
 - [ ] Add dynamic with JavaScript
