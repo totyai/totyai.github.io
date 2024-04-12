@@ -4,7 +4,8 @@ This is a repository for a web-based resumé.
 - [ ] Add previous workplaces
   - [X] Add tasks
   - [X] Create list items
-  - [ ] Modify picture size
+  - [X] Modify picture size
+  - [ ] Modify alignment of profile picture
 - [ ] Add Programing langugeage
 - [ ] Add Programing repositories
 - [ ] Add dynamic with JavaScript
