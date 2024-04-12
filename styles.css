@@ -40,3 +40,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+img {
+    align-items: left;
+    margin-left: 0.5vw;
+    width: 20vw;
+}
+
+h3, h6, p {
+    margin-left: 0.5vw;
+}
