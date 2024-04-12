@@ -5,7 +5,7 @@ This is a repository for a web-based resumé.
   - [X] Add tasks
   - [X] Create list items
   - [X] Modify picture size
-  - [ ] Modify alignment of profile picture
+  - [X] Modify alignment of profile picture
 - [ ] Add Programing langugeage
 - [ ] Add Programing repositories
 - [ ] Add dynamic with JavaScript
