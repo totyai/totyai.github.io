@@ -65,8 +65,8 @@ h3, h6, p {
 
 .floating-btn_ln {
 position: fixed;
-bottom: 2vh;
-right: 2vw;
+bottom: 0.5vh;
+right: 0.5vw;
 z-index: 1000; /* Ensure it stays on top */
 border-radius: 60%; /* Make the button round */
 padding: 1.5vh 1.5vw; /* Add padding for size */
@@ -77,8 +77,8 @@ background: rgba(0,0,0,0,0.1);
 
 .floating-btn_tel {
 position: fixed;
-bottom: 2vh;
-left: 2vw;
+bottom: 0.5vh;
+left: 0.5vw;
 z-index: 1000; /* Ensure it stays on top */
 border-radius: 60%; /* Make the button round */
 padding: 1.5vh 1.5vw; /* Add padding for size */
