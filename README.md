@@ -9,7 +9,11 @@ This is a repository for a web-based resumé.
   - [ ] Add collapsable button
     - [ ] Issue: Not able to distingvish yet
     - [ ] In line with company img
+    - [ ] Modify color to transparent
+    - [ ] Add arrow down
 - [ ] Add LinkedIn floating button
+  - [ ] Correct placement
+  - [ ] Modity button color
 - [ ] Add Telephone floating button
 - [ ] Fix email in fotter
 - [ ] Add Programing langugeage
