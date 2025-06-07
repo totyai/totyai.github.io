@@ -11,6 +11,7 @@ This is a repository for a web-based resumé.
     - [ ] In line with company img
     - [ ] Modify color to transparent
     - [ ] Add arrow down
+  - [ ] Link to Skills
 - [ ] Add LinkedIn floating button
   - [ ] Correct placement
   - [ ] Modity button color
@@ -20,11 +21,14 @@ This is a repository for a web-based resumé.
 - [ ] Add Programing langugeage
 - [ ] Add Programing repositories
 - [ ] Add dynamic with JavaScript
+  - [ ] Pop-up for help navigate
 - [ ] Add education
 - [ ] Add certificates
 - [ ] Add motivational letter
 - [ ] Add summary
 - [ ] Add accomplishments
+- [ ] Add skills
+  - [ ] Link to Jobs
 - [ ] Modify hobbies
 - [ ] Add style with CSS
   - [ ] Better navigation bar
