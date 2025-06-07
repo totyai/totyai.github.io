@@ -73,6 +73,10 @@ padding: 1.5vh 1.5vw; /* Add padding for size */
 font-size: 1vw; /* Increase the icon size */
 box-shadow: 0.5vw 0.5vh;
 background: rgba(0,0,0,0,0.1);
+    img {
+        width: auto;
+        height: 0.5vh;
+    }
 }
 
 .floating-btn_tel {
@@ -85,4 +89,8 @@ padding: 1.5vh 1.5vw; /* Add padding for size */
 font-size: 1vw; /* Increase the icon size */
 box-shadow: 0.5vw 0.5vh;
 background: rgba(0,0,0,0,0.1);
+    img {
+        width: auto;
+        height: 0.5vh;
+    }
 }
