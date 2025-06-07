@@ -16,6 +16,7 @@ This is a repository for a web-based resumé.
   - [ ] Modity button color
 - [ ] Add Telephone floating button
 - [ ] Fix email in fotter
+- [ ] Update prof pic
 - [ ] Add Programing langugeage
 - [ ] Add Programing repositories
 - [ ] Add dynamic with JavaScript
