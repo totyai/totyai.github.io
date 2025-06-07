@@ -62,3 +62,14 @@ img {
 h3, h6, p {
     margin-left: 0.5vw;
 }
+
+.floating-btn {
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 1000; /* Ensure it stays on top */
+border-radius: 60%; /* Make the button round */
+padding: 15px 20px; /* Add padding for size */
+font-size: 1rem; /* Increase the icon size */
+box-shadow: 1rem 1rem
+}
