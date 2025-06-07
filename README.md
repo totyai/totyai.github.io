@@ -1,6 +1,7 @@
 # CV_website
 This is a repository for a web-based resumé.
 
+## ToDos:
 - [ ] Add previous workplaces
   - [X] Add tasks
   - [X] Create list items
@@ -8,14 +9,14 @@ This is a repository for a web-based resumé.
   - [X] Modify alignment of profile picture
   - [ ] Add collapsable button
     - [ ] Issue: Not able to distingvish yet
-    - [ ] In line with company img
-    - [ ] Modify color to transparent
-    - [ ] Add arrow down
+    - [X] In line with company img
+    - [X] Add arrow down
   - [ ] Link to Skills
-- [ ] Add LinkedIn floating button
-  - [ ] Correct placement
-  - [ ] Modity button color
-- [ ] Add Telephone floating button
+- [X] Add LinkedIn floating button
+  - [X] Correct placement
+  - [X] Modity button color
+  - [X] Modify color to transparent
+- [X] Add Telephone floating button
 - [ ] Fix email in fotter
 - [ ] Update prof pic
 - [ ] Add Programing langugeage
@@ -32,5 +33,3 @@ This is a repository for a web-based resumé.
 - [ ] Modify hobbies
 - [ ] Add style with CSS
   - [ ] Better navigation bar
-  - [ ] Explore Bootstrap
-  - [ ] 

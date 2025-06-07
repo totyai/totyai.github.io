@@ -69,13 +69,16 @@ bottom: 0.5vh;
 right: 0.5vw;
 z-index: 1000; /* Ensure it stays on top */
 border-radius: 60%; /* Make the button round */
-padding: 1.5vh 1.5vw; /* Add padding for size */
+padding: 1vh 1vw; /* Add padding for size */
 font-size: 1vw; /* Increase the icon size */
 box-shadow: 0.5vw 0.5vh;
-background: rgba(0,0,0,0,0.1);
+background-color: #fff;
+border-style: solid;
+border-color: blue;
+border-width: 0.5vw;
     img {
         width: auto;
-        height: 0.5vh;
+        height: 4vh;
     }
 }
 
@@ -85,12 +88,15 @@ bottom: 0.5vh;
 left: 0.5vw;
 z-index: 1000; /* Ensure it stays on top */
 border-radius: 60%; /* Make the button round */
-padding: 1.5vh 1.5vw; /* Add padding for size */
+padding: 1vh 1vw; /* Add padding for size */
 font-size: 1vw; /* Increase the icon size */
 box-shadow: 0.5vw 0.5vh;
-background: rgba(0,0,0,0,0.1);
+background-color: #fff;
+border-style: solid;
+border-color: blue;
+border-width: 0.5vw;
     img {
         width: auto;
-        height: 0.5vh;
+        height: 4vh;
     }
 }
