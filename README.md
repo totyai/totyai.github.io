@@ -17,6 +17,8 @@ This is a repository for a web-based resumé.
   - [X] Modity button color
   - [X] Modify color to transparent
 - [X] Add Telephone floating button
+  - [ ] Replace to "Get in contact page
+  - [ ] Embed GForm/Create custom form and API
 - [ ] Fix email in fotter
 - [ ] Update prof pic
 - [ ] Add Programing langugeage
