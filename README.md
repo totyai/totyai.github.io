@@ -7,8 +7,8 @@ This is a repository for a web-based resumé.
   - [X] Create list items
   - [X] Modify picture size
   - [X] Modify alignment of profile picture
-  - [ ] Add collapsable button
-    - [ ] Issue: Not able to distingvish yet
+  - [X] Add collapsable button
+    - [X] Issue: Not able to distingvish yet
     - [X] In line with company img
     - [X] Add arrow down
   - [ ] Link to Skills
@@ -17,10 +17,8 @@ This is a repository for a web-based resumé.
   - [X] Modity button color
   - [X] Modify color to transparent
 - [X] Add Telephone floating button
-  - [ ] Replace to "Get in contact page
-  - [ ] Embed GForm/Create custom form and API
-- [ ] Fix email in fotter
-- [ ] Update prof pic
+- [X] Fix email in fotter
+- [X] Update prof pic
 - [ ] Add Programing langugeage
 - [ ] Add Programing repositories
 - [ ] Add dynamic with JavaScript
