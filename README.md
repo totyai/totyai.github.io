@@ -20,7 +20,8 @@ This is a repository for a web-based resumé.
   - [X] Replace to "Get in contact page
   - [X] Embed GForm/Create custom form and API
 - [X] Fix email in fotter
-- [X] Update prof pic
+- [ ] Update prof pic
+  - [ ] Create its own div & box, which is fixed size, so the prof pic can be zoomed in, and made bigger without disturbing the other elemets eg. title
 - [ ] Add Programing langugeage
 - [ ] Add Programing repositories
 - [ ] Add dynamic with JavaScript
