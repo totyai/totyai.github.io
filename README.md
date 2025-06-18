@@ -12,6 +12,9 @@ This is a repository for a web-based resumé.
     - [X] In line with company img
     - [X] Add arrow down
   - [ ] Link to Skills
+    - [ ] List Skills
+  - [ ] List of softwares used
+  - [ ] Create collapable button for Skills and software
 - [X] Add LinkedIn floating button
   - [X] Correct placement
   - [X] Modity button color
