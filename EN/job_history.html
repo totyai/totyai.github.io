@@ -57,35 +57,13 @@
         </div>
     </nav>
 
-<!--Code for mutli button collapse
-<p class="d-inline-flex gap-1">
-  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
-</p>
-<div class="row">
-  <div class="col">
-    <div class="collapse multi-collapse" id="multiCollapseExample1">
-      <div class="card card-body">
-        Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="collapse multi-collapse" id="multiCollapseExample2">
-      <div class="card card-body">
-        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-      </div>
-    </div>
-  </div>
-</div>
--->
 
 <!--Main Content-->
         <div id="job-history" class="section">
         <!-- Job history content here -->
             <img src="/images/Roche_Logo.png">
             <br>
-            <!--BA-->
+            <!--Job Selector-->
             <p>
                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExampleBA" aria-expanded="false" aria-controls="multiCollapseExampleBA">
                     Automation Business Analyst ▼
@@ -103,81 +81,155 @@
                     HR Operations Intern ▼
                 </button>
             </p>
+            <!--BA-->
             <div class="collapse multi-collapse" id="multiCollapseExampleBA">
                 <div class="card card-body">
                     <h4>Automation Business Analyst</h4>
-                    <h6>
-                        Marc 2025 - Present
-                    </h6>
                     <p>
-                        <ul>
-                            <li>Assessment and Documentation: Evaluate initial automation ideas and create detailed documentation to guide development.</li>
-                            <li>Process Mapping: Utilize strong communication skills to map and document end-to-end processes, including AS-IS and TO-BE stages.</li>
-                            <li>Requirement Detailing: Provide thorough requirements to support developers in initiating the development phase and ensure solutions are adequately tested (UAT).</li>
-                            <li>Portfolio Management: Maintain up-to-date documentation of solutions in production to reflect business needs.</li>
-                            <li>Problem Analysis: Differentiate between problem root causes and symptoms.</li>
-                            <li>Project Management: Using Agile, Lean methodologies, and other project management techniques, leading projects.</li>
-                            <li>System Skills: Proficient in UiPath platform usage, including Task Capture and Automation Hub, Monday.com, LucidChart, LucidSparks.</li>
-                        </ul>
+                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseBAJH" aria-expanded="false" aria-controls="multiCollapseBAJH">
+                            Job history ▼
+                        </button>
+                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseBASk" aria-expanded="false" aria-controls="multiCollapseBASk">
+                            Skills ▼
+                        </button>
+                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseBASw" aria-expanded="false" aria-controls="multiCollapseBASw">
+                            Software ▼
+                        </button>
                     </p>
-                    <h4>Skills:</h4>
-                    <ul>
-                        <li>Process Mapping</li>
-                        <li>Documentation</li>
-                        <li>Requirement Gathering</li>
-                        <li>Project Management</li>
-                        <li>Agile Methodologies</li>
-                        <li>Stakeholder management</li>
-                        <li>Problem Analysis</li>
-                        <li>Automation</li>
-                        <li>Robotic Process Automation (RPA)</li>
-                        <li>communications</li>
-
-                    </ul>
-                    <h5>Softwares:</h5>
-                    <ul>
-                        <li>UiPath Platform</li>
-                        <li>Google App Script</li>
-                        <li>Monday.com</li>
-                        <li>LucidChart</li>
-                        <li>ServiceNow</li>
-                        <li>Google Workspace</li>
-                    </ul>
+                    <div class="collapse multi-collapse" id="multiCollapseBAJH">
+                        <div class="card card-body">
+                            <h4>Job History:</h4>
+                            <h6>
+                                Marc 2025 - Present
+                            </h6>
+                            <p>
+                                <ul>
+                                    <li>Assessment and Documentation: Evaluate initial automation ideas and create detailed documentation to guide development.</li>
+                                    <li>Process Mapping: Utilize strong communication skills to map and document end-to-end processes, including AS-IS and TO-BE stages.</li>
+                                    <li>Requirement Detailing: Provide thorough requirements to support developers in initiating the development phase and ensure solutions are adequately tested (UAT).</li>
+                                    <li>Portfolio Management: Maintain up-to-date documentation of solutions in production to reflect business needs.</li>
+                                    <li>Problem Analysis: Differentiate between problem root causes and symptoms.</li>
+                                    <li>Project Management: Using Agile, Lean methodologies, and other project management techniques, leading projects.</li>
+                                    <li>System Skills: Proficient in UiPath platform usage, including Task Capture and Automation Hub, Monday.com, LucidChart, LucidSparks.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse multi-collapse" id="multiCollapseBASk">
+                        <div class="card card-body">
+                            <h4>Skills:</h4>
+                            <ul>
+                                <li>Process Mapping</li>
+                                <li>Documentation</li>
+                                <li>Requirement Gathering</li>
+                                <li>Project Management</li>
+                                <li>Agile Methodologies</li>
+                                <li>Stakeholder management</li>
+                                <li>Problem Analysis</li>
+                                <li>Automation</li>
+                                <li>Robotic Process Automation (RPA)</li>
+                                <li>communications</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="collapse multi-collapse" id="multiCollapseBASw">
+                        <div class="card card-body">
+                            <h5>Softwares:</h5>
+                            <ul>
+                                <li>UiPath Platform</li>
+                                <li>Google App Script</li>
+                                <li>Monday.com</li>
+                                <li>LucidChart</li>
+                                <li>ServiceNow</li>
+                                <li>Google Workspace</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <hr>
+
             </div>
 
             <!--TL Piece-->
             <div class="collapse multi-collapse" id="multiCollapseExampleTL">
                 <div class="card card-body">
                     <h4>HR Operations Team Lead</h4>
-                    <h6>
-                        Jul 2020 - Marc 2025
-                    </h6>
                     <p>
-                        <ul>
-                            <li>Setting team goals and priorities</li>
-                            <li>Dealing with escalations</li>
-                            <li>Improving way of working within the team</li>
-                            <li>Organizing team dynamic improvements</li>
-                            <li>Establish Team way of working</li>
-                            <li>Setting operational improvements projects</li>
-                            <li>Facilitate and follow-up on project initiatives</li>
-                            <li>Help people develop (soft and hard skills) for team members</li>
-                            <li>Coaching team members</li>
-                            <li>Leveraging network to connect with other teams and help team members to connect with others</li>
-                            <li>Recruiting for new team members</li>
-                            <li>Organizing Assessment Centers</li>
-                            <li>Create safe, positive & self managed team environment</li>
-                            <li>Ensure the team have the right mindset and attitude</li>
-                            <li>First point for other P&C departments</li>
-                            <li>Sharing KPI with stakeholders (and the team)</li>
-                            <li>Performance and compensation evaluation</li>
-                        </ul>
+                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseTLJH" aria-expanded="false" aria-controls="multiCollapseTLJH">
+                            Job history ▼
+                        </button>
+                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseTLSk" aria-expanded="false" aria-controls="multiCollapseTLSk">
+                            Skills ▼
+                        </button>
+                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseTLSw" aria-expanded="false" aria-controls="multiCollapseTLSw">
+                            Software ▼
+                        </button>
                     </p>
-                    <h4>Skills:</h4>
+                    <div class="collapse multi-collapse" id="multiCollapseTLJH">
+                        <div class="card card-body">
+                            <h4>Job History:</h4>  
+                            <h6>
+                                Jul 2020 - Marc 2025
+                            </h6>
+                            <p>
+                                <ul>
+                                    <li>Setting team goals and priorities</li>
+                                    <li>Dealing with escalations</li>
+                                    <li>Improving way of working within the team</li>
+                                    <li>Organizing team dynamic improvements</li>
+                                    <li>Establish Team way of working</li>
+                                    <li>Setting operational improvements projects</li>
+                                    <li>Facilitate and follow-up on project initiatives</li>
+                                    <li>Help people develop (soft and hard skills) for team members</li>
+                                    <li>Coaching team members</li>
+                                    <li>Leveraging network to connect with other teams and help team members to connect with others</li>
+                                    <li>Recruiting for new team members</li>
+                                    <li>Organizing Assessment Centers</li>
+                                    <li>Create safe, positive & self managed team environment</li>
+                                    <li>Ensure the team have the right mindset and attitude</li>
+                                    <li>First point for other P&C departments</li>
+                                    <li>Sharing KPI with stakeholders (and the team)</li>
+                                    <li>Performance and compensation evaluation</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse multi-collapse" id="multiCollapseTLSk">
+                        <div class="card card-body">
+                            <h4>Skills:</h4>
+                            <p>
+                                <ul>
+                                    <li>Statistics</li>
+                                    <li>Teamwork</li>
+                                    <li>Stakeholder Management</li>
+                                    <li>Leadership</li>
+                                    <li>Communication</li>
+                                    <li>Problem Solving</li>
+                                    <li>Project Management</li>
+                                    <li>Agile Methodologies</li>
+                                    <li>Process Improvement</li>
+                                    <li>Coaching</li>
+                                    <li>Recruitment</li>
+                                    <li>Interviewing</li>
+                                    <li>HR Transformation</li>
+                                    <li>Team Coordination</li>
+                                    <li>Workshop planning</li>
+                                    <li>Workshop facilitation</li>
+                                    <li>Team facilitation</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse multi-collapse" id="multiCollapseTLSw">
+                        <div class="card card-body">
+                            <h5>Softwares:</h5>
+                            <ul>
+                                <li>Workday</li>
+                                <li>ServiceNow</li>
+                                <li>Google Workspace</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <hr>
             </div>
 
 
@@ -186,41 +238,90 @@
         <div class="collapse multi-collapse" id="multiCollapseExampleAd">
             <div class="card card-body">
                 <h4>HR Service Advisor</h4>
-                <h6>
-                    Marc 2019 - July 2020
-                </h6>
                 <p>
-                    <ul>
-                        <li>Training customers</li>
-                        <li>Driving system/process improvements</li>
-                        <li>Managing reorganizations</li>
-                        <li>Matching/organizing large Excel files</li>
-                        <li>Seeing/Intake customer requirements</li>
-                        <li>Coach customers on system processes</li>
-                        <li>Finding process improvements</li>
-                        <li>Be the contact person for HR around the world with troubleshooting,</li>
-                        advising on Workday processes and translate the HR activities to the
-                        system language.</li>
-                        <li>Acting as support, coach and advise on questions regarding global
-                        initiatives </li>
-                        <li>Ownership of urgent and complex cases, escalations</li>
-                        <li>Coordinating services, team members, projects</li>
-                        <li>Analyzing volumes, common issues and cooperate with cross-teams</li>
-                        <li>Representing Servicing in meetings with business HR</li>
-                        <li>Ensuring knowledge transfer to new team members and to HR</li>
-                        <li>Providing training and proactively engage with HR</li>
-                        <li>Participating in Continuous Improvement idea-collections and provide</li>
-                        insight both from service and customer point of view</li>
-                        <li>Arranging small Workshops in the scope of CI</li>
-                        <li>Participating as a technical advisor in HR projects</li>
-                        <li>Providing other team members with insight and ideas to help solving
-                        issues</li>
-                        <li>Acting as the driver of the comp round</li>
-                        <li>Ensuring good collaboration and information transfer</li>
-                    </ul>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseAdJH" aria-expanded="false" aria-controls="multiCollapseAdJH">
+                        Job history ▼
+                    </button>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseAdSk" aria-expanded="false" aria-controls="multiCollapseAdSk">
+                        Skills ▼
+                    </button>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseAdSw" aria-expanded="false" aria-controls="multiCollapseAdSw">
+                        Software ▼
+                    </button>
                 </p>
+                <div class="collapse multi-collapse" id="multiCollapseAdJH">
+                    <div class="card card-body">
+                        <h4>Job History:</h4>
+                        <h6>
+                            Marc 2019 - July 2020
+                        </h6>
+                        <p>
+                            <ul>
+                                <li>Training customers</li>
+                                <li>Driving system/process improvements</li>
+                                <li>Managing reorganizations</li>
+                                <li>Matching/organizing large Excel files</li>
+                                <li>Seeing/Intake customer requirements</li>
+                                <li>Coach customers on system processes</li>
+                                <li>Finding process improvements</li>
+                                <li>Be the contact person for HR around the world with troubleshooting,</li>
+                                advising on Workday processes and translate the HR activities to the
+                                system language.</li>
+                                <li>Acting as support, coach and advise on questions regarding global
+                                initiatives </li>
+                                <li>Ownership of urgent and complex cases, escalations</li>
+                                <li>Coordinating services, team members, projects</li>
+                                <li>Analyzing volumes, common issues and cooperate with cross-teams</li>
+                                <li>Representing Servicing in meetings with business HR</li>
+                                <li>Ensuring knowledge transfer to new team members and to HR</li>
+                                <li>Providing training and proactively engage with HR</li>
+                                <li>Participating in Continuous Improvement idea-collections and provide</li>
+                                insight both from service and customer point of view</li>
+                                <li>Arranging small Workshops in the scope of CI</li>
+                                <li>Participating as a technical advisor in HR projects</li>
+                                <li>Providing other team members with insight and ideas to help solving
+                                issues</li>
+                                <li>Acting as the driver of the comp round</li>
+                                <li>Ensuring good collaboration and information transfer</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseAdSk">
+                    <div class="card card-body">
+                        <h4>Skills:</h4>
+                        <p>
+                            <ul>
+                                <li>Teamwork</li>
+                                <li>Stakeholder Management</li>
+                                <li>Communication</li>
+                                <li>Problem Solving</li>
+                                <li>Project Management</li>
+                                <li>Customer Service</li>
+                                <li>Workday</li>
+                                <li>HR Processes</li>
+                                <li>Process Improvement</li>
+                                <li>HR Transformation</li>
+                                <li>Administration</li>
+                                <li>Human Resources</li>
+                                <li>Requirements Analysis</li>
+                                <li>Workshop planning</li>
+                                <li>Workshop facilitation</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseAdSw">
+                    <div class="card card-body">
+                        <h5>Softwares:</h5>
+                        <ul>
+                            <li>Workday</li>
+                            <li>ServiceNow</li>
+                            <li>Google Workspace</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <hr>
         </div>
 
 
@@ -228,38 +329,117 @@
         <div class="collapse multi-collapse" id="multiCollapseExampleSp">
             <div class="card card-body">
                 <h4>Junior HR Specialist</h4>
-                <h6>
-                    04.2018 - 03.2019
-                </h6>
                 <p>
-                    <ul>
-                        <li>HR support for global Roche affiliates. Mayor areas: Workday, CHRIS</li> 
-                        <li>Case solving, advising colleagues</li> 
-                        <li>Training newcomers </li>
-                        <li>Maintaining compensation tasks, and advicing on the matter via regular calls wtih the affiliates </li>
-                        <li>Helped the implementation of new HR system and roll out the subseqent systems in different countries </li>
-                        <li>Regular calls with affiliates regarding data issues </li>
-                        <li>Participating in ad-hoc projects</li>
-                    </ul>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseSpJH" aria-expanded="false" aria-controls="multiCollapseSpJH">
+                        Job history ▼
+                    </button>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseSpSk" aria-expanded="false" aria-controls="multiCollapseSpSk">
+                        Skills ▼
+                    </button>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseSpSw" aria-expanded="false" aria-controls="multiCollapseSpSw">
+                        Software ▼
+                    </button>
                 </p>
+                <div class="collapse multi-collapse" id="multiCollapseSpJH">
+                    <div class="card card-body">
+                        <h4>Job History:</h4>
+                        <h6>
+                            04.2018 - 03.2019
+                        </h6>
+                        <p>
+                            <ul>
+                                <li>HR support for global Roche affiliates. Mayor areas: Workday, CHRIS</li> 
+                                <li>Case solving, advising colleagues</li> 
+                                <li>Training newcomers </li>
+                                <li>Maintaining compensation tasks, and advicing on the matter via regular calls wtih the affiliates </li>
+                                <li>Helped the implementation of new HR system and roll out the subseqent systems in different countries </li>
+                                <li>Regular calls with affiliates regarding data issues </li>
+                                <li>Participating in ad-hoc projects</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseSpSk">
+                    <div class="card card-body">
+                        <h4>Skills:</h4>
+                        <p>
+                            <ul>
+                                <li>Teamwork</li>
+                                <li>Administration</li>
+                                <li>Human Resources</li>
+                                <li>Customer Service</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div> 
+                <div class="collapse multi-collapse" id="multiCollapseSpSw">
+                    <div class="card card-body">
+                        <h5>Softwares:</h5>
+                        <ul>
+                            <li>Workday</li>
+                            <li>SAP - CHRIS</li>
+                            <li>NeoCase</li>
+                            <li>Google Workspace</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <hr>
         </div>
 
         <!--Intern-->
         <div class="collapse multi-collapse" id="multiCollapseExampleIn">
             <div class="card card-body">
                 <h4>HR Operations Intern</h4>
-                <h6>
-                    12.2017 - 04.2018
-                </h6>
                 <p>
-                    Providing support in Personnel Administration, Organizational Management, Performance & Compensation Management for the affiliates across the world.
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseInJH" aria-expanded="false" aria-controls="multiCollapseInJH">
+                        Job history ▼
+                    </button>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseInSk" aria-expanded="false" aria-controls="multiCollapseInSk">
+                        Skills ▼
+                    </button>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseInSw" aria-expanded="false" aria-controls="multiCollapseInSw">
+                        Software ▼
+                    </button>
                 </p>
+                <div class="collapse multi-collapse" id="multiCollapseInJH">
+                    <div class="card card-body">
+                        <h4>Job History:</h4>
+                        <h6>
+                            12.2017 - 04.2018
+                        </h6>
+                        <p>
+                            Providing support in Personnel Administration, Organizational Management, Performance & Compensation Management for the affiliates across the world.
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseInSk">
+                    <div class="card card-body">
+                        <h4>Skills:</h4>
+                        <p>
+                            <ul>
+                                <li>Teamwork</li>
+                                <li>Administration</li>
+                                <li>Human Resources</li>
+                                <li>Customer Service</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseInSw">
+                    <div class="card card-body">
+                        <h5>Softwares:</h5>
+                        <ul>
+                            <li>Workday</li>
+                            <li>SAP - CHRIS</li>
+                            <li>NeoCase</li>
+                            <li>Google Workspace</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <hr>
-        <hr>
+        <!--Randstand-->
         <img src="../images/Randstad_Logo.svg.png">
         <br>
         <p class="d-inline-flex gap-1">
@@ -269,24 +449,63 @@
         </p>
         <div class="collapse multi-collapse" id="multiCollapseExampleTr">
             <div class="card card-body">
-                <h6>
-                    08.2017 - 12.2017
-                </h6>
+                <h4>HR Trainee</h4>
                 <p>
-                    Recruiting professionals in the field of Manufacturing and Logistics 
-                    <ul>
-                        <li>Identify professionals through creative sourcing channels. (e.g. internet research, LinkedIn, Boolean search, etc.)</li>
-                        <li>Pre-screening the applicants</li>
-                        <li>Language screening </li>
-                        <li>Presenting potential candidates with suitable job opportunities</li>
-                        <li>Database Maintenance: Registering and logging new CVs into the database; maintain talent pools</li>
-                        <li>Day to day HR Administration duties, solving ad-hoc problems, writing reports during the meetings</li>
-                    </ul>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseTrJH" aria-expanded="false" aria-controls="multiCollapseTrJH">
+                        Job history ▼
+                    </button>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseTrSk" aria-expanded="false" aria-controls="multiCollapseTrSk">
+                        Skills ▼
+                    </button>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseTrSw" aria-expanded="false" aria-controls="multiCollapseTrSw">
+                        Software ▼
+                    </button>
                 </p>
+                <div class="collapse multi-collapse" id="multiCollapseTrJH">
+                    <div class="card card-body">
+                        <h4>Job History</h4>
+                        <h6>
+                            08.2017 - 12.2017
+                        </h6>
+                        <p>
+                            Recruiting professionals in the field of Manufacturing and Logistics 
+                            <ul>
+                                <li>Identify professionals through creative sourcing channels. (e.g. internet research, LinkedIn, Boolean search, etc.)</li>
+                                <li>Pre-screening the applicants</li>
+                                <li>Language screening </li>
+                                <li>Presenting potential candidates with suitable job opportunities</li>
+                                <li>Database Maintenance: Registering and logging new CVs into the database; maintain talent pools</li>
+                                <li>Day to day HR Administration duties, solving ad-hoc problems, writing reports during the meetings</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseTrSk">
+                    <div class="card card-body">
+                        <h4>Skills</h4>
+                        <ul>
+                            <li>Interviewing</li>
+                            <li>Recruitment</li>
+                            <li>Communication</li>
+                            <li>Sourcing</li>
+                            <li>Administration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseTrSw">
+                    <div class="card card-body">
+                        <h5>Softwares:</h5>
+                        <ul>
+                            <li>Microsoft</li>
+                            <li>LinkedIn Recruiter</li>
+                            <li>Randstad internal systems</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <hr>
-        <hr>
+        <!--Spar-->
         <img src="../images/Spar_Logo.png">
         <br>
         <p class="d-inline-flex gap-1">
@@ -296,22 +515,47 @@
         </p>
         <div class="collapse multi-collapse" id="multiCollapseExampleCa">
             <div class="card card-body">
-                <h6>
-                    07.2015 - 12.2017
-                </h6>
+                <h4>Cashier</h4>
                 <p>
-                    Besites university, I worked as a part-time cashier.
-                    <ul>
-                        <li>Serving customers</li>
-                        <li>Handling payments</li>
-                    </ul>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseCaJH" aria-expanded="false" aria-controls="multiCollapseCaJH">
+                        Job history ▼
+                    </button>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseCaSk" aria-expanded="false" aria-controls="multiCollapseCaSk">
+                        Skills ▼
+                    </button>
                 </p>
+                <div class="collapse multi-collapse" id="multiCollapseCaJH">
+                    <div class="card card-body">
+                        <h4>Job History</h4>
+                        <h6>
+                            07.2015 - 12.2017
+                        </h6>
+                        <p>
+                            Besites university, I worked as a part-time cashier.
+                            <ul>
+                                <li>Serving customers</li>
+                                <li>Handling payments</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseCaSk">
+                    <div class="card card-body">
+                        <h4>Skills</h4>
+                        <p>
+                            <ul>
+                                <li>Customer Service</li>
+                                <li>Communication</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <hr>
-        <hr>
+        <!--EFS-->
         <img src="../images/efs-logo.png">
-        <br>
+        <br> <br>
         <p class="d-inline-flex gap-1">
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExampleCc" aria-expanded="false" aria-controls="multiCollapseExampleCc">
               Costumer Contacts ▼
@@ -319,19 +563,47 @@
         </p>
         <div class="collapse multi-collapse" id="multiCollapseExampleCc">
             <div class="card card-body">
-                <h6>
-                    07.2014 - 07.2015
-                </h6>
+                <h4>Costumer Contacts</h4>
                 <p>
-                    <ul>
-                        <li>Recording customer needs</li>
-                        <li>Getting in contact with costumers, Maintaining contact with costumers, organize meetings</li>
-                        <li>Requirement analysis</li>
-                        <li>Consulting</li>
-                        <li>advertising insurance products</li>
-                        <li>Interview with potential co-workers</li>
-                    </ul>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseCcJH" aria-expanded="false" aria-controls="multiCollapseCcJH">
+                        Job history ▼
+                    </button>
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseCcSk" aria-expanded="false" aria-controls="multiCollapseCcSk">
+                        Skills ▼
+                    </button>
                 </p>
+                <div class="collapse multi-collapse" id="multiCollapseCcJH">
+                    <div class="card card-body">
+                        <h4>Job History</h4>
+                        <h6>
+                            07.2014 - 07.2015
+                        </h6>
+                        <p>
+                            <ul>
+                                <li>Recording customer needs</li>
+                                <li>Getting in contact with costumers, Maintaining contact with costumers, organize meetings</li>
+                                <li>Requirement analysis</li>
+                                <li>Consulting</li>
+                                <li>advertising insurance products</li>
+                                <li>Interview with potential co-workers</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseCcSk">
+                    <div class="card card-body">
+                        <h4>Skills:</h4>
+                        <p>
+                            <ul>
+                                <li>Communication</li>
+                                <li>Customer Service</li>
+                                <li>Consulting</li>
+                                <li>Requirement Analysis</li>
+                                <li>Negotiation</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
