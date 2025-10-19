@@ -38,3 +38,4 @@ This is a repository for a web-based resumé.
 - [ ] Modify hobbies
 - [ ] Add style with CSS
   - [ ] Better navigation bar
+- [ ] Add Rock, Paper, Scissers game in JavaScript
