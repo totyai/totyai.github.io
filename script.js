@@ -1,9 +1,38 @@
 function rock_paper() {
+    const choices = {"Rock": `
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)`,
+        "Paper": `
+    _______
+---'   ____)____
+          ______)
+          _______)
+          _______)
+---.__________)`,
+        "Scissors": `
+    _______
+---'   ____)____
+          ______)
+        __________)
+      (____)
+---.__(___)`
+    }
 
-    draw = document.createElement("div");
-    document.createTextNode("")
-    document.getElementById("rock-paper").appendChild(draw);
-    rock_div = document.getElementById("rock-paper");
-    console.log(rock_div);
-    console.log(draw);
+    // Welcome
+    const welcome = document.createTextNode("Welcome to the game of Rock-Paper-Scissors\nPlease input your choice: 0 - Rock; 1 - Paper; 2 - Scissors:")
+    document.getElementById("instructions").appendChild(welcome);
+
+    //Input element
+    const input = document.createElement("input")
+    input.type = "int";
+    input.placeholder = "0-1-2";
+    document.getElementById("inputfield").appendChild(input)
+
+    //logic for game
+
+    //output choice
 }
